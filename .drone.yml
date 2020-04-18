@@ -1,0 +1,11 @@
+---
+kind: pipeline
+name: telegraf
+type: docker
+
+steps:
+- name: Build
+  image: plugins/docker
+  settings:
+    repo: registry.lukemilius.com/telegraf
+    auto_tag: true
