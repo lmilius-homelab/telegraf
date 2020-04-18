@@ -9,3 +9,4 @@ steps:
   settings:
     repo: registry.lukemilius.com/telegraf
     auto_tag: true
+
