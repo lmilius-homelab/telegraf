@@ -1,3 +1,3 @@
-FROM telegraf:1.20
+FROM telegraf:1.21
 
 COPY config /etc/telegraf/
